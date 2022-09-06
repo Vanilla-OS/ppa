@@ -1,3 +1,19 @@
+Package: plymouth-theme-vanilla
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8
+Depends: plymouth, plymouth-label, plymouth-theme-ubuntu-text
+Filename: ./plymouth-theme-vanilla_0.0.1_amd64.deb
+Size: 1584
+MD5sum: 842c00deb2b28f714bd653871b7c6fb8
+SHA1: 80a121d25c480f20bb0e1fdddad6689f2783cfc5
+SHA256: 3a10043e230548ef0d6d886f4d5adae7bb75a0a3e2724e94072ae925a01c4c73
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (both logo and text)
+
 Package: vanilla-first-setup
 Version: 0.0.5
 Architecture: amd64
