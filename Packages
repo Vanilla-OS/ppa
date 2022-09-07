@@ -52,6 +52,21 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
 Description: Official Vanilla OS Plymouth (text)
 
+Package: vanilla-distrologo
+Version: 0.0.1
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 30
+Filename: ./vanilla-distrologo_0.0.1_all.deb
+Size: 6570
+MD5sum: c1563aa32eb96410c569956f36756918
+SHA1: dcc630c1aacff1bcb6bd199a87e47e79a593f0e9
+SHA256: 62b5aa08b950195a7e62bb50672c71bb6a58bf545b5795c53c4eb519ef75a825
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
+Description: Official Vanilla OS Logo
+
 Package: vanilla-first-setup
 Version: 0.0.5
 Architecture: amd64
