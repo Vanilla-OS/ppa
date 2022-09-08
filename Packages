@@ -1,3 +1,23 @@
+Package: calamares-settings-vanilla
+Version: 0.0.1
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 2562
+Depends: calamares-settings-ubuntu-common (>= 0.0.1)
+Filename: ./calamares-settings-vanilla_0.0.1_all.deb
+Size: 2532912
+MD5sum: c5517b424e620257844dfd82556d72f8
+SHA1: dbc5161e5ce4b4145d5f0001ff88dd4ec0635928
+SHA256: 01d471813387d364f6f4bc9caf9d3cffe0ded6a2f7d271950d97a3e458e1473a
+Section: devel
+Priority: optional
+Homepage: https://github.com/Vanilla-OS/calamares-settings-vanilla
+Description: Vanilla OS Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Vanilla OS.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Vanilla OS desktop is installed with the
+ GNOME Vanilla desktop environment.
+
 Package: plymouth-theme-vanilla
 Version: 0.0.1
 Architecture: amd64
