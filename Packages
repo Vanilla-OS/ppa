@@ -41,18 +41,18 @@ Description: Vanilla OS Calamares Settings and Branding
 
 Package: plymouth-theme-vanilla-logo
 Source: plymouth-theme-vanilla
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 128
+Installed-Size: 125
 Depends: plymouth, plymouth-label
 Breaks: plymouth (<< 0.9.2-3ubuntu1~)
 Provides: plymouth-theme
-Filename: ./plymouth-theme-vanilla-logo_0.0.2_all.deb
-Size: 33830
-MD5sum: 382298161c326183d858da9cef813951
-SHA1: f026d8e5685fcc9a3de5078bead5f37c47613e9b
-SHA256: 3a5842a52a4828c2a442e022275b01730678673abc6074563ef590ba5511d5f7
+Filename: ./plymouth-theme-vanilla-logo_0.0.3_all.deb
+Size: 24948
+MD5sum: 6db250d0d68d80437a648e93be5ec114
+SHA1: 23792c6a2de09cc65746b556eb4ad915ad9faae1
+SHA256: 451740c1df65a8cc5abadbfb68e477b4a2d45756e019e7ad8a2f5ee33651acef
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
@@ -60,18 +60,18 @@ Description: Official Vanilla OS Plymouth (logo)
 
 Package: plymouth-theme-vanilla-text
 Source: plymouth-theme-vanilla
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 16
 Depends: plymouth, plymouth-theme-ubuntu-text
 Breaks: plymouth (<< 0.9.2-3ubuntu1~)
 Provides: plymouth-theme
-Filename: ./plymouth-theme-vanilla-text_0.0.2_all.deb
-Size: 2484
-MD5sum: 4b1a21a01c1ec0dd328a8d1d6e41a063
-SHA1: 903a3f508c5ffa3ffef8a2b7057dd0272a203558
-SHA256: cfca7a0172799b392fa19fad5b6e6b9401c90680a5e5e24f661a160831b718e6
+Filename: ./plymouth-theme-vanilla-text_0.0.3_all.deb
+Size: 2482
+MD5sum: 44355d57d32709f0f67c6a2504ed9fb6
+SHA1: 8ec7a3d6857bb2e1d69993af0190c8316bcee30d
+SHA256: cede078f005a4958e77d337aa7262c8fbaae6573213e4a56f6b7d43b575151b7
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
