@@ -1,22 +1,43 @@
-Package: calamares-settings-vanilla
-Version: 0.0.1
-Architecture: all
+Package: calamares-settings-ubuntu-common
+Source: calamares-settings-vanilla
+Version: 0.0.4
+Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 2562
-Depends: calamares-settings-ubuntu-common (>= 0.0.1)
-Filename: ./calamares-settings-vanilla_0.0.1_all.deb
-Size: 2532912
-MD5sum: c5517b424e620257844dfd82556d72f8
-SHA1: dbc5161e5ce4b4145d5f0001ff88dd4ec0635928
-SHA256: 01d471813387d364f6f4bc9caf9d3cffe0ded6a2f7d271950d97a3e458e1473a
+Installed-Size: 22
+Depends: calamares (>= 3.2.14~), squashfs-tools, python3
+Filename: ./calamares-settings-ubuntu-common_0.0.4_amd64.deb
+Size: 4172
+MD5sum: 6c728b3a7d9bb66f1b98119abde91ffa
+SHA1: 558a3a28958b431384e12fac9f6733c06120df7f
+SHA256: 028c05bea69d94aa3827869dbd989c445d59cac846c768e11a1baec188588918
 Section: devel
 Priority: optional
-Homepage: https://github.com/Vanilla-OS/calamares-settings-vanilla
+Homepage: https://github.com/Vanilla-OS
+Description: Common Calamares Settings
+ This package contains the common Calamares settings for all flavors.
+ There is also a automirror Python script to set sources based on
+ geolocation.
+
+Package: calamares-settings-vanilla
+Version: 0.0.4
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 150
+Depends: calamares-settings-ubuntu-common (>= 0.0.4)
+Conflicts: calamares-settings-vanilla
+Filename: ./calamares-settings-vanilla_0.0.4_amd64.deb
+Size: 43418
+MD5sum: 654d6efe41a35716e341178bf0085a0e
+SHA1: 70e4061c4ae401a9467afc1451a74ce65b9d5f89
+SHA256: 43192380573b8b13b2879dd23a24561871ee449eb2f6c98cdf7c26f069e7c468
+Section: devel
+Priority: optional
+Homepage: https://github.com/Vanilla-OS
 Description: Vanilla OS Calamares Settings and Branding
- This package contains the Calamares settings and branding for Vanilla OS.
+ This package contains the Calamares settings and branding for vanilla-os.
  As part of the branding the installer slideshow is contained within.
  The settings ensure a proper Vanilla OS desktop is installed with the
- GNOME Vanilla desktop environment.
+ cinnamon desktop environment.
 
 Package: plymouth-theme-vanilla
 Version: 0.0.1
