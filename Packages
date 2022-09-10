@@ -39,6 +39,25 @@ Description: Vanilla OS Calamares Settings and Branding
  The settings ensure a proper Vanilla OS desktop is installed with the
  cinnamon desktop environment.
 
+Package: plymouth-theme-vanilla
+Version: 0.0.3
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8
+Depends: plymouth-theme-vanilla-logo, plymouth-theme-vanilla-text
+Filename: ./plymouth-theme-vanilla_0.0.3_all.deb
+Size: 1614
+MD5sum: f08e6448a52b60514def56a681ae9722
+SHA1: 01af7f6a5f7a4771a41d3b82911c68aa20ed4d82
+SHA256: b654a4ac9cc29814e9d5d2d1784ee84ae596ddaefe7038624cf821aa4cb84cf9
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (metapackage)
+ This package contains the official Vanilla OS Plymouth theme.
+ .
+ This package is a metapackage, it depends on the logo and text packages.
+
 Package: plymouth-theme-vanilla-logo
 Source: plymouth-theme-vanilla
 Version: 0.0.3
