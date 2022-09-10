@@ -112,16 +112,16 @@ Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
 Description: Official Vanilla OS Logo
 
 Package: vanilla-first-setup
-Version: 0.0.9
+Version: 0.1.0
 Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 110
+Installed-Size: 115
 Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
-Filename: ./vanilla-first-setup_0.0.9_amd64.deb
-Size: 15438
-MD5sum: 0306a38b8cfbedd13876987aa5d51d6f
-SHA1: 4cbe84dc445301cfc423eeff85f13f8807c692a5
-SHA256: ffeeef691cb0e4f16d4c8a57babd5ddf485bf6da8c16d6c2bc2bd19de0361f41
+Filename: ./vanilla-first-setup_0.1.0_amd64.deb
+Size: 16312
+MD5sum: b3622b66c8da673a3dee73020b484062
+SHA1: ef21258d5da97084b81f01d5de541caa7aa7f1c1
+SHA256: a25db3b8bcbca6e9e8380ddde8785f9a506fda66308b2f7d49da55f431ba6e40
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
