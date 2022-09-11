@@ -1,13 +1,13 @@
 Package: apx
-Version: 0.0.1
+Version: 0.0.2
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 36
-Filename: ./apx_0.0.1_all.deb
-Size: 4674
-MD5sum: 5282d93d0e458618e9bb4ad1d85148b1
-SHA1: 0137a21f71c46696610f7f9457ebd8ef9794585a
-SHA256: 8452d5e480e1a7ad8676c17185a7fef32b8595eb5ddb13031a6da225bb9ecda8
+Filename: ./apx_0.0.2_all.deb
+Size: 4712
+MD5sum: 75ad12111a9a330f1dcaddcb557f8bf5
+SHA1: 751aeb359878ad70f41e7d4ea266eb1117e24594
+SHA256: 9139dbe60f6261e787821af7c346fe92885b3b0ee86beaccb7940e66e2495701
 Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/apx/
