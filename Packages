@@ -178,80 +178,16 @@ Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
 Description: Official Vanilla OS Logo
 
 Package: vanilla-first-setup
-Version: 0.1.4
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 115
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
-Filename: ./vanilla-first-setup_0.1.4_amd64.deb
-Size: 16384
-MD5sum: b692cbc407f49e44ba07f1eff5b34809
-SHA1: eb4791a1f59a40c326e3103d64d4b9b259f3c4f8
-SHA256: c8e52bdb7df02532b96bc0062180687bed9e578ec1e13a10ed7907f7fd4316d0
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-first-setup
-Version: 0.1.5
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 114
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
-Filename: ./vanilla-first-setup_0.1.5_amd64.deb
-Size: 16400
-MD5sum: b59838e200420a4cf432de23c59388eb
-SHA1: 96b0d5c7cc0c81e0504c888013eff957df9cd9dd
-SHA256: 216ccb94af202361d35e31d2f74975ae09e89b4e7ed4fc71ea9ccafd5f8664b7
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-first-setup
-Version: 0.1.6
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 115
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
-Filename: ./vanilla-first-setup_0.1.6_amd64.deb
-Size: 16488
-MD5sum: d7d62dde280ed5ef6e7adacbf8e61f6e
-SHA1: ac2268d37f12114d03e4a509c42a8779423c9100
-SHA256: 4255f198d18e7240af924713bde06cd764a9ca40c043206c2c058451f0054039
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-first-setup
-Version: 0.1.7
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 115
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
-Filename: ./vanilla-first-setup_0.1.7_amd64.deb
-Size: 16498
-MD5sum: dc91714c582871ed7ed38725602abcd2
-SHA1: e52832394e3276b645d29fafac3e9cdb00dcc16e
-SHA256: 11dfb16553a575d62c00eef2c088f024773aa4816b3e4294896c86ba26c87268
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-first-setup
 Version: 0.1.8
 Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 116
 Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
 Filename: ./vanilla-first-setup_0.1.8_amd64.deb
-Size: 16524
-MD5sum: 537589fd7f8d8c53a0e95b523ab263d9
-SHA1: 77084700490aed52c934ec0d96ed8d962f9544ca
-SHA256: e5c24dd27800bfb843fb3d7ac0efa46a96ead365a0903f5ae774ab1a30168d53
+Size: 16564
+MD5sum: c0503f27aada368e47c8c4e650c0885f
+SHA1: ebe9cdd677e375e59420c5298cb36f710f2f63d8
+SHA256: 8959756f87f52e745198a1b8420cc54ca782d7be0d3ab14332c67d8bcbbaba1c
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
