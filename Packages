@@ -105,6 +105,27 @@ Description: Vanilla OS Calamares Settings and Branding
  The settings ensure a proper Vanilla OS desktop is installed with the
  cinnamon desktop environment.
 
+Package: calamares-settings-vanilla
+Version: 0.0.5
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 150
+Depends: calamares-settings-ubuntu-common (>= 0.0.5)
+Conflicts: calamares-settings-vanilla
+Filename: ./calamares-settings-vanilla_0.0.5_amd64.deb
+Size: 43422
+MD5sum: 4f480e213221e10109ea648e9e5bd4de
+SHA1: f1207189a8d98b7307d15d507a07ea3d78d46ef8
+SHA256: 47c296eb48107fcdfe906ce7b4d7c9d223251d2e4d2be56ac624516a47014c1a
+Section: devel
+Priority: optional
+Homepage: https://github.com/Vanilla-OS
+Description: Vanilla OS Calamares Settings and Branding
+ This package contains the Calamares settings and branding for vanilla-os.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Vanilla OS desktop is installed with the
+ cinnamon desktop environment.
+
 Package: plymouth-theme-vanilla
 Version: 0.0.3
 Architecture: all
