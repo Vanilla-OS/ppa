@@ -230,3 +230,19 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
 Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
 
+Package: vanilla-first-setup
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 126
+Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
+Filename: ./vanilla-first-setup_1.0.0_amd64.deb
+Size: 17660
+MD5sum: 6cb75be65b38458e0c9cbdc3276b6ade
+SHA1: f5f6674d968b8ccab7a445d240b465c9dbdb1ecd
+SHA256: 130fdfadc9c6fecd13d9f7957f43bbbeb7f1e138d7e1f24b3a4ad434c3d9f86b
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
+Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
+
