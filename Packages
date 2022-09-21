@@ -237,10 +237,10 @@ Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 126
 Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
 Filename: ./vanilla-first-setup_1.0.0_amd64.deb
-Size: 17660
-MD5sum: 6cb75be65b38458e0c9cbdc3276b6ade
-SHA1: f5f6674d968b8ccab7a445d240b465c9dbdb1ecd
-SHA256: 130fdfadc9c6fecd13d9f7957f43bbbeb7f1e138d7e1f24b3a4ad434c3d9f86b
+Size: 17642
+MD5sum: 8c197da801db1ca3036be5c7645ba994
+SHA1: fe8b42ba1aff73fa1bab4f29fb0e1d4c1b67e5ca
+SHA256: 851cf8799347a831e9cb3af240a88acddd27c9c37b3ccaca06e913c98cfdf448
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
