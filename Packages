@@ -1,3 +1,19 @@
+Package: almost
+Version: 0.0.2
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8865
+Depends: golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev
+Filename: ./almost_0.0.2_all.deb
+Size: 4352294
+MD5sum: f60bc83bfb31a654fcad5999fbaeb0e2
+SHA1: 2bf742292bbaab1c07af51e885a49a21af36bba3
+SHA256: df88c5df936b6819322baceb78da31cbb08d36f1accd23eb8fff56da3e4ca978
+Section: devel
+Priority: extra
+Homepage: https://github.com/vanilla-os/almost
+Description: On-demand immutability for Vanilla OS.
+
 Package: apx
 Version: 0.0.2
 Architecture: all
