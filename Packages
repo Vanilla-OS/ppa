@@ -69,25 +69,25 @@ Description: Common Calamares Settings
  geolocation.
 
 Package: calamares-settings-vanilla
-Version: 0.0.5
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 150
-Depends: calamares-settings-ubuntu-common (>= 0.0.5)
-Conflicts: calamares-settings-vanilla
-Filename: ./calamares-settings-vanilla_0.0.5_amd64.deb
-Size: 43422
-MD5sum: 4f480e213221e10109ea648e9e5bd4de
-SHA1: f1207189a8d98b7307d15d507a07ea3d78d46ef8
-SHA256: 47c296eb48107fcdfe906ce7b4d7c9d223251d2e4d2be56ac624516a47014c1a
+Source: calamares-settings-ubuntu
+Version: 0.0.10
+Architecture: all
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 440
+Depends: calamares-settings-ubuntu-common (>= 0.0.10)
+Conflicts: calamares-settings-ubuntustudio
+Breaks: calamares-settings-ubuntustudio
+Filename: ./calamares-settings-vanilla_0.0.10_all.deb
+Size: 414014
+MD5sum: 9aec61a02e6f0b32f55a19d2ffa9fb27
+SHA1: fa246217e7f0ff50171e210cb9e612be17620c34
+SHA256: 1d4375d8d0e1289124ac7b6460f06b07e45e038477f00113fd9308ed3c1622b3
 Section: devel
 Priority: optional
-Homepage: https://github.com/Vanilla-OS
+Homepage: https://github.com/vanilla-os
 Description: Vanilla OS Calamares Settings and Branding
- This package contains the Calamares settings and branding for vanilla-os.
+ This package contains the Calamares settings and branding for Vanilla OS.
  As part of the branding the installer slideshow is contained within.
- The settings ensure a proper Vanilla OS desktop is installed with the
- cinnamon desktop environment.
 
 Package: plymouth-theme-vanilla
 Version: 0.0.3
