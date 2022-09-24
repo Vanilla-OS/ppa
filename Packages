@@ -56,10 +56,10 @@ Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
 Installed-Size: 40
 Depends: calamares (>= 3.2.14~), cryptsetup, keyutils, python3, qml-module-qtquick-window2, qml-module-qtquick2, squashfs-tools
 Filename: ./calamares-settings-ubuntu-common_0.0.10_amd64.deb
-Size: 6358
-MD5sum: ba83a00297838e19de3641f54c6992b2
-SHA1: fde6cd543b3f43f6922d9bfd8cf9038cb6572787
-SHA256: f6bdd68e6f4f9874f44cd3cca4293528e02cdcf5611e0b7a5ba63352a585ee45
+Size: 6330
+MD5sum: f4be8be852812631ecc2ba8552d89c0c
+SHA1: 2a4cbb498bced18a471b566e2cb5e740f9272aae
+SHA256: af54322423ed946585351e9a17fc2a9c0edf9e186ba01f71a94d268b14dcd7cd
 Section: devel
 Priority: optional
 Homepage: https://github.com/vanilla-os
@@ -78,10 +78,10 @@ Depends: calamares-settings-ubuntu-common (>= 0.0.10)
 Conflicts: calamares-settings-ubuntustudio
 Breaks: calamares-settings-ubuntustudio
 Filename: ./calamares-settings-vanilla_0.0.10_all.deb
-Size: 413972
-MD5sum: 04a79f565709cd6bce97ee5dcfa0d39e
-SHA1: e04853fc0491d6ded6852934d06fd39ce547e9db
-SHA256: 916d33bbcd3e2feb2067d9902501d13bddfe4f12cf884b2cbe49cd933e3a43d5
+Size: 413800
+MD5sum: cacc1a3c21e349a9c726fd833002b104
+SHA1: a9be28b2f6912a44620cedb92231abaa6681c119
+SHA256: 208d85e677f050b66b3750f83a318bfe77bf9830ab27ebe93c56c4b3ff8be5d8
 Section: devel
 Priority: optional
 Homepage: https://github.com/vanilla-os
