@@ -49,20 +49,20 @@ Description: Apx is a wrapper around apt to make it works inside a container
   from outside, directly on the host.
 
 Package: calamares-settings-ubuntu-common
-Source: calamares-settings-vanilla
-Version: 0.0.5
+Source: calamares-settings-ubuntu
+Version: 0.0.10
 Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 22
-Depends: calamares (>= 3.2.14~), squashfs-tools, python3
-Filename: ./calamares-settings-ubuntu-common_0.0.5_amd64.deb
-Size: 4170
-MD5sum: 0d7f01dc29de3828172d26a67b5cb35e
-SHA1: 6fcac0f4c1568f6561f651b21dceedc81b2bfa60
-SHA256: 235f074a3203e63f0aa0ecb72839ed131cbad59646f14ca0d4b8e4903a81dba5
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 40
+Depends: calamares (>= 3.2.14~), cryptsetup, keyutils, python3, qml-module-qtquick-window2, qml-module-qtquick2, squashfs-tools
+Filename: ./calamares-settings-ubuntu-common_0.0.10_amd64.deb
+Size: 6358
+MD5sum: ba83a00297838e19de3641f54c6992b2
+SHA1: fde6cd543b3f43f6922d9bfd8cf9038cb6572787
+SHA256: f6bdd68e6f4f9874f44cd3cca4293528e02cdcf5611e0b7a5ba63352a585ee45
 Section: devel
 Priority: optional
-Homepage: https://github.com/Vanilla-OS
+Homepage: https://github.com/vanilla-os
 Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on
