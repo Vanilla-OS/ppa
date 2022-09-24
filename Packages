@@ -56,10 +56,10 @@ Installed-Size: 199
 Depends: calamares, cryptsetup, keyutils, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
 Provides: calamares-settings
 Filename: ./calamares-settings-vanilla_0.0.10_all.deb
-Size: 66334
-MD5sum: cf806ec37d5d47be2f2a37124a84435e
-SHA1: aaee916f60f78688ec45524750d296a57604953d
-SHA256: 2714d433be0249238f817aaa1524b51f2adfe63856b506281ca2d1a12d47dc04
+Size: 66164
+MD5sum: e06f1150c6130be1d791b8a01ec2337f
+SHA1: 1e2978788ed3b9b3b0700d4ca1b0c7f80274f7e1
+SHA256: 159f34974316c843f6e1e355af765ebc43bdc2d0bda9f0e253da8db30958caf2
 Section: utils
 Priority: optional
 Homepage: https://github.com/Vanilla-OS
