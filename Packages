@@ -78,10 +78,10 @@ Depends: calamares-settings-ubuntu-common (>= 0.0.10)
 Conflicts: calamares-settings-ubuntustudio
 Breaks: calamares-settings-ubuntustudio
 Filename: ./calamares-settings-vanilla_0.0.10_all.deb
-Size: 414014
-MD5sum: 9aec61a02e6f0b32f55a19d2ffa9fb27
-SHA1: fa246217e7f0ff50171e210cb9e612be17620c34
-SHA256: 1d4375d8d0e1289124ac7b6460f06b07e45e038477f00113fd9308ed3c1622b3
+Size: 414002
+MD5sum: 94ed14fb9910ea55a92ae5beeaadc148
+SHA1: 6c8df85395bc53b6672792fe793e98d8a4387510
+SHA256: dcdc4ec877a93cb2ef670ac1b5c8434e5a9d43c3c6be40f89abaa31e27ecbd30
 Section: devel
 Priority: optional
 Homepage: https://github.com/vanilla-os
