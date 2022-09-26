@@ -39,9 +39,9 @@ Installed-Size: 48
 Depends: bash-completion, podman
 Filename: ./apx_0.0.8_all.deb
 Size: 6860
-MD5sum: c98de24107794d026d861f348a4485ff
-SHA1: 5e4b9ec641cd6ca20ae070fa62ea86c5d6b49212
-SHA256: 18a3ebd45918f0cdb643115bc8c8b2de9dd478891949b912af1872848c2ceb76
+MD5sum: 9b4ce6e35481b165355ecb875598e578
+SHA1: 1401e42683b36573d7ded027a1eb46efc2b946ed
+SHA256: e15c7307144b7ef0851350217c6f202f62ac20e61eaea365985139045053f23c
 Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/apx/
