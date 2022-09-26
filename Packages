@@ -15,39 +15,6 @@ Homepage: https://github.com/vanilla-os/almost
 Description: On-demand immutability for Vanilla OS.
 
 Package: apx
-Version: 0.0.3
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 39
-Filename: ./apx_0.0.3_all.deb
-Size: 5464
-MD5sum: e336d509168d83470c075444da20aa93
-SHA1: 8f09b6013288efc9886c019fae694fa6725efa22
-SHA256: bd680275297f374bc1321ba520038155c4e5148e482a84cd18bf873af9175e22
-Section: utils
-Priority: optional
-Homepage: https://github.com/vanilla-os/apx/
-Description: Apx is a wrapper around apt to make it works inside a container
-  from outside, directly on the host.
-
-Package: apx
-Version: 0.0.4
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 42
-Depends: bash-completion
-Filename: ./apx_0.0.4_all.deb
-Size: 5718
-MD5sum: ff0a4fe16487da852ebc3e045f268d6c
-SHA1: 17b04949496324c7db6361dca60b2f8e60f8116d
-SHA256: c2b5ee8f57fcbd680baf4a0c6808b671ad4677a9c8ea154b5c7f99e3ca8fe9a7
-Section: utils
-Priority: optional
-Homepage: https://github.com/vanilla-os/apx/
-Description: Apx is a wrapper around apt to make it works inside a container
-  from outside, directly on the host.
-
-Package: apx
 Version: 0.0.5
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -58,6 +25,23 @@ Size: 5752
 MD5sum: 3245646436559603688da23766ac432f
 SHA1: aedae2d58c6242f9f03527a640c59ae750d4d718
 SHA256: 7817d6b0a12e333d186d1c3ac89f637566f12a4f7cfa00a3b34931b05bcdbd61
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/apx/
+Description: Apx is a wrapper around apt to make it works inside a container
+  from outside, directly on the host.
+
+Package: apx
+Version: 0.0.8
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 48
+Depends: bash-completion, podman
+Filename: ./apx_0.0.8_all.deb
+Size: 6842
+MD5sum: 75bd6f7ca5fd74c18114b52522188e0d
+SHA1: 54d3e1999459b2aa4b65bac9e912d0d205678388
+SHA256: 21ba0da2083705664042dc83a7bb03842e6a5640d0f20419c998352fc0b1ae38
 Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/apx/
