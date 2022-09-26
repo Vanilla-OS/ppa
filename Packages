@@ -38,10 +38,10 @@ Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 48
 Depends: bash-completion, podman
 Filename: ./apx_0.0.8_all.deb
-Size: 6842
-MD5sum: 75bd6f7ca5fd74c18114b52522188e0d
-SHA1: 54d3e1999459b2aa4b65bac9e912d0d205678388
-SHA256: 21ba0da2083705664042dc83a7bb03842e6a5640d0f20419c998352fc0b1ae38
+Size: 6860
+MD5sum: c98de24107794d026d861f348a4485ff
+SHA1: 5e4b9ec641cd6ca20ae070fa62ea86c5d6b49212
+SHA256: 18a3ebd45918f0cdb643115bc8c8b2de9dd478891949b912af1872848c2ceb76
 Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/apx/
