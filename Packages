@@ -88,6 +88,26 @@ Description: Common Calamares Settings
  There is also a automirror Python script to set sources based on
  geolocation.
 
+Package: calamares-settings-ubuntu-common
+Source: calamares-settings-ubuntu
+Version: 0.0.12
+Architecture: amd64
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 40
+Depends: calamares (>= 3.2.14~), cryptsetup, keyutils, python3, qml-module-qtquick-window2, qml-module-qtquick2, squashfs-tools
+Filename: ./calamares-settings-ubuntu-common_0.0.12_amd64.deb
+Size: 6326
+MD5sum: 5261ae70f31c37899161136bfb5f4fd3
+SHA1: c579eaf2cab1edcd512114222c85e52a80844906
+SHA256: 5aa753abe16ffb141ce4d74d8d9db11accad412738ad6bdc7b7b277b9f974213
+Section: devel
+Priority: optional
+Homepage: https://github.com/vanilla-os
+Description: Common Calamares Settings
+ This package contains the common Calamares settings for all flavors.
+ There is also a automirror Python script to set sources based on
+ geolocation.
+
 Package: calamares-settings-vanilla
 Source: calamares-settings-ubuntu
 Version: 0.0.10
@@ -123,6 +143,27 @@ Size: 413804
 MD5sum: acf99cdcf7594959d997a73a03586e7c
 SHA1: 69e13bcbabcacb15c8d892ab5fcf4d6a68262e4d
 SHA256: 5fd2c1e6c4c068dd6c73ec64bf98c846de03cb984f316ebd55defe4855042121
+Section: devel
+Priority: optional
+Homepage: https://github.com/vanilla-os
+Description: Vanilla OS Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Vanilla OS.
+ As part of the branding the installer slideshow is contained within.
+
+Package: calamares-settings-vanilla
+Source: calamares-settings-ubuntu
+Version: 0.0.12
+Architecture: all
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 440
+Depends: calamares-settings-ubuntu-common (>= 0.0.12)
+Conflicts: calamares-settings-ubuntustudio
+Breaks: calamares-settings-ubuntustudio
+Filename: ./calamares-settings-vanilla_0.0.12_all.deb
+Size: 413802
+MD5sum: 1dad6cbcf37e6e8faf92b50b11db0fba
+SHA1: bcde3a41af9069d1ed3164ac1142002a479ce5bb
+SHA256: 71e2d7808ee535696a1353a2a4743c9c3951c0f159e2d6540f819002a57471ed
 Section: devel
 Priority: optional
 Homepage: https://github.com/vanilla-os
