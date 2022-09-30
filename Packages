@@ -48,6 +48,23 @@ Homepage: https://github.com/vanilla-os/apx/
 Description: Apx is a wrapper around apt to make it works inside a container
   from outside, directly on the host.
 
+Package: apx
+Version: 0.0.9
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 48
+Depends: bash-completion, podman
+Filename: ./apx_0.0.9_all.deb
+Size: 6870
+MD5sum: c8e45d22cd2f4122354a868b24935e0f
+SHA1: eb8e551af7add49531531eb7e90f167baa68796d
+SHA256: eaad2aa42cd834e7119c12e10477e89d3bdf425713f60360cca331cd1625ccc7
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/apx/
+Description: Apx is a wrapper around apt to make it works inside a container
+  from outside, directly on the host.
+
 Package: calamares-settings-ubuntu-common
 Source: calamares-settings-ubuntu
 Version: 0.0.10
