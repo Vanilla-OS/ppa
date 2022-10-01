@@ -335,6 +335,21 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
 Description: Official Vanilla OS Plymouth (text)
 
+Package: vanilla-beta-notice
+Version: 0.0.1
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 76
+Filename: ./vanilla-beta-notice_0.0.1_all.deb
+Size: 56536
+MD5sum: c538fe0c72c7babd554caca1a92014d8
+SHA1: ef16b15ef32311e699dad46685512fdc833782f6
+SHA256: 5b39f3c6b0ae53a33ea321c7f43f96b2fd5462276c671bcbc93f4603bde0c101
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/vanilla-beta-notice/
+Description: Vanilla OS Beta Notice for testers.
+
 Package: vanilla-distrologo
 Version: 0.0.1
 Architecture: all
