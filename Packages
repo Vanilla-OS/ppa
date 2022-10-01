@@ -31,6 +31,23 @@ Homepage: https://github.com/vanilla-os/almost
 Description: On-demand immutability for Vanilla OS.
 
 Package: apx
+Version: 0.0.10
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 48
+Depends: bash-completion, podman
+Filename: ./apx_0.0.10_all.deb
+Size: 6892
+MD5sum: 6df8886f81f8c023c7d73c0883d6c1f2
+SHA1: 99b3dd4439c624ef931fa99363a6e9dedb4c9517
+SHA256: f70c8e9f2cf7da6738e53f15f07f6e3f02704c54d35073cc52fe7835fa48c294
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/apx/
+Description: Apx is a wrapper around apt to make it works inside a container
+  from outside, directly on the host.
+
+Package: apx
 Version: 0.0.5
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
