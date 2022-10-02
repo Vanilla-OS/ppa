@@ -68,13 +68,13 @@ Package: apx
 Version: 0.0.12
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 49
+Installed-Size: 48
 Depends: bash-completion, podman
 Filename: ./apx_0.0.12_all.deb
-Size: 7086
-MD5sum: 517a462f6c6a57c8cc5ee428fdfc32fa
-SHA1: fa353106655c57940d29c462539b1bd5d4437204
-SHA256: a4eee150c3013edf0872bf0eb341e321e171eb5eff54f8473dc232a90ed31ac9
+Size: 6880
+MD5sum: 920dbd3e0d31af358f55aea327ed4f0a
+SHA1: 986e970f6d7d9bd283e255424c9625594aa67988
+SHA256: aaa21d5b20149e1bd140f54f039363beb69b914c3d88a720416031f222a29879
 Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/apx/
