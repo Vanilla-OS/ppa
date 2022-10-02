@@ -48,6 +48,23 @@ Description: Apx is a wrapper around apt to make it works inside a container
   from outside, directly on the host.
 
 Package: apx
+Version: 0.0.11
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 49
+Depends: bash-completion, podman
+Filename: ./apx_0.0.11_all.deb
+Size: 7072
+MD5sum: b7bedf046b519d385920915d1a07b539
+SHA1: b20f88a9fb0c0bf515e9975a2aa6fcc754a11398
+SHA256: 7c83288e8218d59c36cd024bd0a34c2e2d56bcc073077a2dd82f45d6cd504ffe
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/apx/
+Description: Apx is a wrapper around apt to make it works inside a container
+  from outside, directly on the host.
+
+Package: apx
 Version: 0.0.5
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
