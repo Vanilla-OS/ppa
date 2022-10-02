@@ -62,6 +62,21 @@ Priority: extra
 Homepage: https://github.com/vanilla-os/almost
 Description: On-demand immutability for Vanilla OS.
 
+Package: almost-extras
+Version: 0.0.2
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 14
+Filename: ./almost-extras_0.0.2_all.deb
+Size: 2078
+MD5sum: 6ca68f3a512fbed0625f2d1d695f5cb6
+SHA1: edb38aabd656146ce508e4206b1b13323216695c
+SHA256: 1d5fcb7394b4847d8ce822b3344266bba95c1f4767f9c53ec03b67b6d231fb4e
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/almost-extras/
+Description: Vanilla OS adaptions for the almost utility.
+
 Package: apx
 Version: 0.0.10
 Architecture: all
