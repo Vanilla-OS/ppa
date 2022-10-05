@@ -463,6 +463,22 @@ Priority: optional
 Homepage: https://github.com/vanilla-os/vanilla-beta-notice/
 Description: Vanilla OS Beta Notice for testers.
 
+Package: vanilla-control-center
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 110
+Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
+Filename: ./vanilla-control-center_0.0.1_amd64.deb
+Size: 18932
+MD5sum: 18b4bca50b34fd93b5b0c0f713eba158
+SHA1: 90249d8a6218fc43a78d03afc0232ea48da04dd8
+SHA256: f65a21474489453a32e51b469ae42cd6668e25d1043cbc1f55eab8f22e2e19f9
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-control-center/
+Description: This utility allows you to manage Vanilla OS components.
+
 Package: vanilla-distrologo
 Version: 0.0.1
 Architecture: all
