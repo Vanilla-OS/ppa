@@ -82,13 +82,13 @@ Package: almost
 Version: 0.0.8
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9209
+Installed-Size: 9217
 Depends: golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, almost-extras
 Filename: ./almost_0.0.8_all.deb
-Size: 4590100
-MD5sum: ab224e0b1fd318c62bf450c6bfee87f4
-SHA1: 4782b5a17c1383cfe1cd6a381020ac5a27d362a8
-SHA256: ef9b8af234b92be1c40592ab4df019f5be10be658193952af5ea1e9a820e1137
+Size: 4593044
+MD5sum: 45711b2b668ddd629765c577965df1b4
+SHA1: bd82e0fb3f9c1304eb74e1182a933b92992c836a
+SHA256: 8dee7cfafd66d8dd167db8434c0745d4c473d2b8ee7d5a08168bcdab4229ed25
 Section: devel
 Priority: extra
 Homepage: https://github.com/vanilla-os/almost
