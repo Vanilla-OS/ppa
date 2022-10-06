@@ -502,10 +502,10 @@ Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 110
 Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
 Filename: ./vanilla-control-center_0.0.3_amd64.deb
-Size: 18924
-MD5sum: a44a7b5da4bcb9b54fbc686218f45b2e
-SHA1: 9bcb2891abeb618ce5d53a7692d967eec2d466fe
-SHA256: f1c1397e230ebd8038f3458f8c71a685710e73a7b9ec4ab3590119e0e0098403
+Size: 18926
+MD5sum: 1e11855bf66f0c2ef348759581337ed1
+SHA1: 798b6842cf020feef8a9b5f4e59a0288d1fca697
+SHA256: 9af9d805ab28a8ea69cf867cc2d30ea121fe9ecefe2b76bf814a327f88cdd0ab
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
