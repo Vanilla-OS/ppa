@@ -454,6 +454,44 @@ Description: Official Vanilla OS Plymouth (metapackage)
  .
  This package is a metapackage, it depends on the logo and text packages.
 
+Package: plymouth-theme-vanilla
+Version: 0.0.6
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8
+Depends: plymouth-theme-vanilla-bgrt, plymouth-theme-vanilla-text
+Filename: ./plymouth-theme-vanilla_0.0.6_all.deb
+Size: 1604
+MD5sum: ef2933f6e29d1892bc5c2ba657ad2a32
+SHA1: b7362313f3e1ce4c500f1011c0181b91b330479e
+SHA256: 4ae092c42d55a8ce1d3ebf72dda3ab9926ff5edb1c328677f99e7ad099f6121a
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (metapackage)
+ This package contains the official Vanilla OS Plymouth theme.
+ .
+ This package is a metapackage, it depends on the logo and text packages.
+
+Package: plymouth-theme-vanilla-bgrt
+Source: plymouth-theme-vanilla
+Version: 0.0.6
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 205
+Depends: plymouth, plymouth-label
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Filename: ./plymouth-theme-vanilla-bgrt_0.0.6_all.deb
+Size: 136058
+MD5sum: 8ba5dec519522e4efdd2cc4b374f1f3d
+SHA1: e6ee8ddfa81a23e8957dbefbe02e9495b6786a63
+SHA256: 5e2aed0988a0821d61ee496b9ce8b5e8cfb7ed945ac43867abe942c90aa79e2a
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (bgrt)
+
 Package: plymouth-theme-vanilla-logo
 Source: plymouth-theme-vanilla
 Version: 0.0.3
@@ -525,6 +563,25 @@ Size: 2478
 MD5sum: 3a617e28b6a43fdaaf69f6b36d67fdbc
 SHA1: 8e6717413958c9f6efac775774ffb0da3d596638
 SHA256: f586d38cab25de78386d49b2e0b3abaf4665b2960bbdd578b74d5c647bba90d1
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (text)
+
+Package: plymouth-theme-vanilla-text
+Source: plymouth-theme-vanilla
+Version: 0.0.6
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 16
+Depends: plymouth, plymouth-theme-ubuntu-text
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Filename: ./plymouth-theme-vanilla-text_0.0.6_all.deb
+Size: 2462
+MD5sum: 316f805a5c2a73a9086525fde52e72c8
+SHA1: 522ecf250802a2272a5d18ae95909d6ecac80308
+SHA256: 4f6be6370c65dbfc3fc8455814dd1baebbd244c0bd231221365c1639c4ab43ce
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
