@@ -666,6 +666,21 @@ Priority: optional
 Homepage: https://github.com/vanilla-os/vanilla-beta-notice/
 Description: Vanilla OS Beta Notice for testers.
 
+Package: vanilla-beta-notice
+Version: 0.0.2
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 76
+Filename: ./vanilla-beta-notice_0.0.2_all.deb
+Size: 56552
+MD5sum: 04a30ae4e585e7ab0199898f9cd6060c
+SHA1: 6825c7f39bdd90ea052d67748604c17ad4b90c6f
+SHA256: b7cc0b92418371f39f33ec0b0eb23e8511276632d43fe2e3cecd10058865badc
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/vanilla-beta-notice/
+Description: Vanilla OS Beta Notice for testers.
+
 Package: vanilla-control-center
 Version: 0.0.1
 Architecture: amd64
