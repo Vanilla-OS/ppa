@@ -624,6 +624,27 @@ Description: Vanilla OS Calamares Settings and Branding
  This package contains the Calamares settings and branding for Vanilla OS.
  As part of the branding the installer slideshow is contained within.
 
+Package: micro-distrobox
+Version: 1.4.1
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 282
+Depends: podman | docker.io
+Filename: ./micro-distrobox_1.4.1_all.deb
+Size: 152792
+MD5sum: 83412398d5dd06480a3e7f47f5df2fd4
+SHA1: 796f591c4197cd7499ff184aac88a1fda7c82f45
+SHA256: 0d702352131e534a9fc1b51afe370eb752f268abc57b66bb388fc059ee1551e6
+Section: admin
+Priority: optional
+Homepage: https://distrobox.privatedns.org/
+Description: Another tool for containerized command line environments on Linux
+ Use any linux distribution inside your terminal. Distrobox uses podman or
+ docker to create containers using the linux distribution of your choice.
+ Created container will be tightly integrated with the host, allowing to share
+ the HOME directory of the user, external storage, external usb devices and
+ graphical apps (X11/Wayland) and audio.
+
 Package: plymouth-theme-vanilla
 Version: 0.0.3
 Architecture: all
