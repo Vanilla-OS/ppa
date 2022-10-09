@@ -601,6 +601,25 @@ Description: Official Vanilla OS Plymouth (metapackage)
  .
  This package is a metapackage, it depends on the logo and text packages.
 
+Package: plymouth-theme-vanilla
+Version: 0.0.7
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8
+Depends: plymouth-theme-vanilla-bgrt, plymouth-theme-vanilla-text
+Filename: ./plymouth-theme-vanilla_0.0.7_all.deb
+Size: 1610
+MD5sum: b5942a23ce1e43623bc00f3ebb8acf3e
+SHA1: 739cbb070aaca40bc3725c3b72ad9cfbb44e855a
+SHA256: 3727d7b14746d9eb1c0f3cc5b0ed1c755c6dcfef018930112d41adc3d89d7aa3
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (metapackage)
+ This package contains the official Vanilla OS Plymouth theme.
+ .
+ This package is a metapackage, it depends on the bgrt, logo and text packages.
+
 Package: plymouth-theme-vanilla-bgrt
 Source: plymouth-theme-vanilla
 Version: 0.0.6
@@ -615,6 +634,25 @@ Size: 136058
 MD5sum: 8ba5dec519522e4efdd2cc4b374f1f3d
 SHA1: e6ee8ddfa81a23e8957dbefbe02e9495b6786a63
 SHA256: 5e2aed0988a0821d61ee496b9ce8b5e8cfb7ed945ac43867abe942c90aa79e2a
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (bgrt)
+
+Package: plymouth-theme-vanilla-bgrt
+Source: plymouth-theme-vanilla
+Version: 0.0.7
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 193
+Depends: plymouth, plymouth-label
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Filename: ./plymouth-theme-vanilla-bgrt_0.0.7_all.deb
+Size: 126882
+MD5sum: 76158a5704ef1ed187a6af2c08012f79
+SHA1: bf61a35795b3e94396ef8139aeec50e820cf3bbf
+SHA256: 50d9c13159e37395490f5d4859f4ab5f09c0c3fcff635c9b0fdaf8105c001e73
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
@@ -653,6 +691,25 @@ Size: 32352
 MD5sum: dbae222ad0c36573045eb3f2190023ce
 SHA1: 7068db4cc896ea9b052c99441e70fb680ed4c275
 SHA256: 66d0b1cb2bfdac9e6c1a587efdb614d3169a0ac46e98cc0ed27f6d4abc45e9f5
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (logo)
+
+Package: plymouth-theme-vanilla-logo
+Source: plymouth-theme-vanilla
+Version: 0.0.7
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 112
+Depends: plymouth, plymouth-label
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Filename: ./plymouth-theme-vanilla-logo_0.0.7_all.deb
+Size: 23122
+MD5sum: 9d89fae8a3e26fe5a42cdc1b2cac9d1a
+SHA1: 47963f34e1ad766752300a610c0ee5d752d2e20b
+SHA256: 6bacbce96d3d7bc3fc59a487ecd9331047bbaeef7a811b6a183b3565372ad27f
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
@@ -710,6 +767,25 @@ Size: 2462
 MD5sum: 316f805a5c2a73a9086525fde52e72c8
 SHA1: 522ecf250802a2272a5d18ae95909d6ecac80308
 SHA256: 4f6be6370c65dbfc3fc8455814dd1baebbd244c0bd231221365c1639c4ab43ce
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
+Description: Official Vanilla OS Plymouth (text)
+
+Package: plymouth-theme-vanilla-text
+Source: plymouth-theme-vanilla
+Version: 0.0.7
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 16
+Depends: plymouth, plymouth-theme-ubuntu-text
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Filename: ./plymouth-theme-vanilla-text_0.0.7_all.deb
+Size: 2356
+MD5sum: 8492f7d0dffd389ba031a52f6afaaf3b
+SHA1: 4c46d215d35e862badede00e4738944cdb935079
+SHA256: c6e2a245fd566a90cf8cc347f8715938f1b1ada812bd75984e9f0475c7f37c51
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
