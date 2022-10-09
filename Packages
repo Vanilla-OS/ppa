@@ -373,6 +373,22 @@ Priority: extra
 Homepage: https://github.com/vanilla-os/apx
 Description: Apx is the default package manager in Vanilla OS.
 
+Package: apx
+Version: 1.0.4
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8688
+Depends: podman, distrobox, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev
+Filename: ./apx_1.0.4_all.deb
+Size: 4365880
+MD5sum: f5c50bb76b3cb7bbcbeb79de9bf2cd37
+SHA1: 9e71b1fddc993f8e7244ae8564ed0c22fd006f53
+SHA256: e58a77515d085a7d1e15b228c07d4564dd47a3a541c2ab8c5a8ea339460ec2f3
+Section: devel
+Priority: extra
+Homepage: https://github.com/vanilla-os/apx
+Description: Apx is the default package manager in Vanilla OS.
+
 Package: calamares-settings-ubuntu-common
 Source: calamares-settings-ubuntu
 Version: 0.0.10
