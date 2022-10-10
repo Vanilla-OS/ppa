@@ -678,11 +678,12 @@ Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 282
 Depends: podman | docker.io
+Conflicts: distrobox
 Filename: ./micro-distrobox_1.4.1_all.deb
-Size: 152798
-MD5sum: a77d815a9d64612bbb6935b1ee26ecae
-SHA1: e57556b906caec649e4dc6c24c61114672955abd
-SHA256: ce0d019de66efde37944e3b3e77438641508f9be31447bf6928c2be2db77df1a
+Size: 152808
+MD5sum: 76651abd44ec22d63b80e91bf53afde7
+SHA1: ef238a76ebecf5caad40e04b788b671f2c32567c
+SHA256: dcf1626e68055f34c555ff8b71d53af95a9dd9f4cf13bff6018065fb50ec5118
 Section: admin
 Priority: optional
 Homepage: https://distrobox.privatedns.org/
