@@ -1162,12 +1162,12 @@ Package: vanilla-distrologo
 Version: 0.0.6
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 44
+Installed-Size: 45
 Filename: ./vanilla-distrologo_0.0.6_all.deb
-Size: 18944
-MD5sum: 8b4488a0dac0d0224668ac40b35118ef
-SHA1: 477f6f9e5fbc66e4e774cc8f05b70d660b30ef97
-SHA256: f367f338104f2561f535eccea1aae879fcfeda8500e68ed79c6fea2f66a1cfc6
+Size: 19008
+MD5sum: 038b256567f94f7b30fe61237d4bd3c2
+SHA1: 336874416ab12e41b24c883328e20148033de929
+SHA256: 19a801fc052f1702b3cf297ded74c4ec56b7f15a6548957d82695449d22b289f
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
