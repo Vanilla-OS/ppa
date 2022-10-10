@@ -380,10 +380,10 @@ Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 8697
 Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev
 Filename: ./apx_1.0.12_all.deb
-Size: 4368480
-MD5sum: 6af514fed37e6e7310ac0af0bbcf17f1
-SHA1: c31c591f7c2e821a47e6bc00e91e5dfb0fd85ee9
-SHA256: 54fc5cff9b769085758f44b07d73371feb6d4f8ebfcc54723137e8804fab8547
+Size: 4369608
+MD5sum: 6aee16d04e61558005b3ca3e08a8634b
+SHA1: 5f1305f7e7bd6dfb3c62411912f15f9f90922d77
+SHA256: 22292c328b083a839de574df29cd09d067eb22900777a72839a741d42e8fa9d8
 Section: devel
 Priority: extra
 Homepage: https://github.com/vanilla-os/apx
