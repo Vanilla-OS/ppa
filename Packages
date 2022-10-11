@@ -393,13 +393,13 @@ Package: apx
 Version: 1.0.13
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8717
+Installed-Size: 8708
 Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev
 Filename: ./apx_1.0.13_all.deb
-Size: 4377636
-MD5sum: c00d1e3a014bdf9ac362cd75ccc75774
-SHA1: da8286a769b566f88ec0dc9cf0364c9061494b2d
-SHA256: 6f2d02a99126b696d21a9f32f076e61c460422493223e9260ac39ef3b90d5818
+Size: 4374020
+MD5sum: b20a94ce690b83e75f1e87adae4fa87e
+SHA1: 78a8db0a869eea860fe8409b045f30e645892b32
+SHA256: 461962ec9b34abd489bda267411b7118e538ae1537702a94e9dfe35dcd55ea37
 Section: devel
 Priority: extra
 Homepage: https://github.com/vanilla-os/apx
