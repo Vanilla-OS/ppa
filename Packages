@@ -709,6 +709,26 @@ Description: Common Calamares Settings
  There is also a automirror Python script to set sources based on
  geolocation.
 
+Package: calamares-settings-ubuntu-common
+Source: calamares-settings-ubuntu
+Version: 0.0.14
+Architecture: amd64
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 40
+Depends: calamares (>= 3.2.14~), cryptsetup, keyutils, python3, qml-module-qtquick-window2, qml-module-qtquick2, squashfs-tools
+Filename: ./calamares-settings-ubuntu-common_0.0.14_amd64.deb
+Size: 6386
+MD5sum: 5a5c725071e985f738fa2b2b46eec7d0
+SHA1: 2d6d50823dfae5b54caed4a1e6f7ecd31b7063cf
+SHA256: b972d3565fc46b63ad790609649427951a0ad55e148731d2413ff9c12520c268
+Section: devel
+Priority: optional
+Homepage: https://github.com/vanilla-os
+Description: Common Calamares Settings
+ This package contains the common Calamares settings for all flavors.
+ There is also a automirror Python script to set sources based on
+ geolocation.
+
 Package: calamares-settings-ubuntustudio
 Source: calamares-settings-ubuntu
 Version: 0.0.13
@@ -723,6 +743,29 @@ Size: 2934874
 MD5sum: b285f1010c4de477e99d1799fc807c54
 SHA1: de7d944eda74aad26d7f455349e40eeaffd8e856
 SHA256: 3710f70a09ec7e0c045ebcd04dff4bfa14a75e81b1bccaef93491e4becba22dd
+Section: devel
+Priority: optional
+Homepage: https://github.com/vanilla-os
+Description: Ubuntu Studio Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Ubuntu Studio.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Ubuntu Studio desktop is installed with the
+ KDE Plasma desktop environment.
+
+Package: calamares-settings-ubuntustudio
+Source: calamares-settings-ubuntu
+Version: 0.0.14
+Architecture: all
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 2948
+Depends: calamares-settings-ubuntu-common (>= 0.0.14)
+Conflicts: calamares-settings-vanilla
+Breaks: calamares-settings-vanilla
+Filename: ./calamares-settings-ubuntustudio_0.0.14_all.deb
+Size: 2934874
+MD5sum: 86175c2461e35288afe57a25c681dfb4
+SHA1: bdd9c9d248ebd6e48df602ddb005ff2fe1c7f374
+SHA256: 512f705a13e4a1d27c8fb07a0dd0489a5155e8649c028644ef0757f2636a7e04
 Section: devel
 Priority: optional
 Homepage: https://github.com/vanilla-os
@@ -809,6 +852,27 @@ Size: 413776
 MD5sum: d7fe319e83e4107e5ef86dc8a67e8f9d
 SHA1: 737c02bd7ca85cb6308a3fe4c96295205ae6a2af
 SHA256: 9e4872320f220afa2519a18f2a3796ee36d81d890dde5a1b69c078a1594c431a
+Section: devel
+Priority: optional
+Homepage: https://github.com/vanilla-os
+Description: Vanilla OS Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Vanilla OS.
+ As part of the branding the installer slideshow is contained within.
+
+Package: calamares-settings-vanilla
+Source: calamares-settings-ubuntu
+Version: 0.0.14
+Architecture: all
+Maintainer: Vanilla OS Developers <https://github.com/vanilla-os>
+Installed-Size: 441
+Depends: calamares-settings-ubuntu-common (>= 0.0.14)
+Conflicts: calamares-settings-ubuntustudio
+Breaks: calamares-settings-ubuntustudio
+Filename: ./calamares-settings-vanilla_0.0.14_all.deb
+Size: 413892
+MD5sum: 5f8b3ceefb1bc23fdeb35e495e9ba691
+SHA1: cbcf7493efbbfc9e58db2d4d54c9951877db9523
+SHA256: 74e9ad509cfa72fc29864bd8da35b2f29c1cc7d784637f6eac909fda1051fb15
 Section: devel
 Priority: optional
 Homepage: https://github.com/vanilla-os
