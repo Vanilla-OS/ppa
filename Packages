@@ -924,6 +924,27 @@ Description: Another tool for containerized command line environments on Linux
  the HOME directory of the user, external storage, external usb devices and
  graphical apps (X11/Wayland) and audio.
 
+Package: micro-distrobox
+Version: 1.4.1-2
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 283
+Depends: podman | docker.io
+Filename: ./micro-distrobox_1.4.1-2_all.deb
+Size: 152826
+MD5sum: 873cf2fa2768c60bcd09ce3caa9633ed
+SHA1: ed1c59e97a4de503255e80efdbace86a563f4d52
+SHA256: 30e4a2806c31580d031edfeb5400a5bddc339c102ee8d6185635ae88983451b6
+Section: admin
+Priority: optional
+Homepage: https://distrobox.privatedns.org/
+Description: Another tool for containerized command line environments on Linux
+ Use any linux distribution inside your terminal. Distrobox uses podman or
+ docker to create containers using the linux distribution of your choice.
+ Created container will be tightly integrated with the host, allowing to share
+ the HOME directory of the user, external storage, external usb devices and
+ graphical apps (X11/Wayland) and audio.
+
 Package: plymouth-theme-vanilla
 Version: 0.0.3
 Architecture: all
