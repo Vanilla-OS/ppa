@@ -205,6 +205,22 @@ Priority: optional
 Homepage: https://github.com/vanilla-os/almost-extras/
 Description: Vanilla OS adaptions for the almost utility.
 
+Package: almost-extras
+Version: 0.0.4
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 14
+Depends: vanilla-control-center
+Filename: ./almost-extras_0.0.4_all.deb
+Size: 2068
+MD5sum: abbae1c9144752eb22ffd87a6e8b725d
+SHA1: 755832c20a04200ff6bdbb2b5fa9ca89482a95b5
+SHA256: 833972acbe489a91b05d1c56b893e197365a58d7346e8631e95c4a82bd74b898
+Section: utils
+Priority: optional
+Homepage: https://github.com/vanilla-os/almost-extras/
+Description: Vanilla OS adaptions for the almost utility.
+
 Package: apx
 Version: 0.0.10
 Architecture: all
