@@ -1350,6 +1350,21 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
 Description: This utility allows you to manage Vanilla OS components.
 
+Package: vanilla-dev-dummy-pkg
+Version: 1
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8
+Filename: ./vanilla-dev-dummy-pkg_1_all.deb
+Size: 1538
+MD5sum: fa9eeaf53e64164100929540d1567f1c
+SHA1: 48d3a9b71a26d1451c994865d36dfcabb28aaa68
+SHA256: 0d7b1e10581324a001f17919cace8f2d18341b82b1ec7d3ccaa8ca011b3419fc
+Section: admin
+Priority: optional
+Homepage: https://vanillaos.org
+Description: dummy package for development tests
+
 Package: vanilla-distrologo
 Version: 0.0.1
 Architecture: all
