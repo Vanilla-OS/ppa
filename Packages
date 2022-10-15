@@ -1365,6 +1365,21 @@ Priority: optional
 Homepage: https://vanillaos.org
 Description: dummy package for development tests
 
+Package: vanilla-dev-dummy-pkg
+Version: 2
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 8
+Filename: ./vanilla-dev-dummy-pkg_2_all.deb
+Size: 1534
+MD5sum: bd31c7d8b12d0ddeec945867a2c0641f
+SHA1: 36c50aa338ea68059d2f95f8231d85b5192e3e52
+SHA256: 77c8306d5bc79fbae48d56a7d6cf68eebf52342ef020d343cd7bf81996708414
+Section: admin
+Priority: optional
+Homepage: https://vanillaos.org
+Description: dummy package for development tests
+
 Package: vanilla-distrologo
 Version: 0.0.1
 Architecture: all
