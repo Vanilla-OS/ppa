@@ -190,6 +190,22 @@ Priority: extra
 Homepage: https://github.com/vanilla-os/almost
 Description: On-demand immutability for Vanilla OS.
 
+Package: almost
+Version: 1.2.0
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 9808
+Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, almost-extras
+Filename: ./almost_1.2.0_all.deb
+Size: 4851308
+MD5sum: 3ae140f1c3adc0e1fba41850ac96fc3b
+SHA1: 4391e9e83fe0ecc4b3a200af0ac57d1a499f2ab8
+SHA256: 8eeaa8f7ec314df0f22aae5b7d081382cb61bc72ca51348cfdf2d95b65b38369
+Section: devel
+Priority: extra
+Homepage: https://github.com/vanilla-os/almost
+Description: On-demand immutability for Vanilla OS.
+
 Package: almost-extras
 Version: 0.0.2
 Architecture: all
