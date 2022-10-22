@@ -969,6 +969,104 @@ Description: Vanilla OS Calamares Settings and Branding
  This package contains the Calamares settings and branding for Vanilla OS.
  As part of the branding the installer slideshow is contained within.
 
+Package: linux-headers-6.0.1-060001
+Source: linux
+Version: 6.0.1-060001.202210120833
+Architecture: all
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 78245
+Depends: coreutils
+Filename: ./linux-headers-6.0.1-060001_6.0.1-060001.202210120833_all.deb
+Size: 12684360
+MD5sum: e5fb7a48907417802e16882bc74df476
+SHA1: a8e493d2744a912f65efc2e1b41a06d7f5f2151f
+SHA256: fe77c7f24df2e374e16bbbe10a3592e4a7fdb4068579cb2554be4669f61245b4
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: Header files related to Linux kernel version 6.0.1
+ This package provides kernel header files for version 6.0.1, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-6.0.1-060001/debian.README.gz for details
+
+Package: linux-headers-6.0.1-060001-generic
+Source: linux
+Version: 6.0.1-060001.202210120833
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 25800
+Depends: linux-headers-6.0.1-060001, libc6 (>= 2.34), libelf1 (>= 0.144), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
+Provides: linux-headers, linux-headers-3.0
+Filename: ./linux-headers-6.0.1-060001-generic_6.0.1-060001.202210120833_amd64.deb
+Size: 3095726
+MD5sum: ae7ec51dcc17c174695509361b3adcd7
+SHA1: 37894fa9a2ec04c64602b2b33a861d6600579d88
+SHA256: 13f8704b9bbbfe72b7c9072a36e0115bc8d9ebd8c1c1cb6c15a0d33adfdbcaaf
+Section: devel
+Priority: optional
+Description: Linux kernel headers for version 6.0.1 on 64 bit x86 SMP
+ This package provides kernel header files for version 6.0.1 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.0.1-060001/debian.README.gz for details.
+
+Package: linux-image-unsigned-6.0.1-060001-generic
+Source: linux
+Version: 6.0.1-060001.202210120833
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 11793
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.0.1-060001-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc | linux-source-6.0.1, linux-tools, linux-headers-6.0.1-060001-generic, linux-modules-extra-6.0.1-060001-generic
+Conflicts: linux-image-6.0.1-060001-generic
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, virtualbox-guest-modules
+Filename: ./linux-image-unsigned-6.0.1-060001-generic_6.0.1-060001.202210120833_amd64.deb
+Size: 12093632
+MD5sum: d0ee5fe16df6073a5bd3be4367f45490
+SHA1: ef505c419b3251ba8b041d9201d29751b1019db5
+SHA256: 9d93808fa363080ce461d1f11d425c53b69bb17ef353c690040fba2f5472dcfb
+Section: kernel
+Priority: optional
+Description: Linux kernel image for version 6.0.1 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 6.0.1 on
+ 64 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.0.1-060001-generic
+Source: linux
+Version: 6.0.1-060001.202210120833
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 565666
+Filename: ./linux-modules-6.0.1-060001-generic_6.0.1-060001.202210120833_amd64.deb
+Size: 92477210
+MD5sum: 433834bf665277b8debb3f0ce8388e27
+SHA1: 906fed33a4dd9482b58795df5c726761118e8815
+SHA256: faf5a2431b53e162fe920bbd822eacf90cbfade8703af3c36a1cb23af0f5dcbc
+Section: kernel
+Priority: optional
+Description: Linux kernel extra modules for version 6.0.1 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: micro-distrobox
 Version: 1.4.1
 Architecture: all
