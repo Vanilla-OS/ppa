@@ -564,6 +564,22 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
 Description: This utility allows you to manage Vanilla OS components.
 
+Package: vanilla-control-center
+Version: 0.1.1
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 259
+Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
+Filename: ./vanilla-control-center_0.1.1_amd64.deb
+Size: 26082
+MD5sum: 9f2e7836a397fc631e88e8cbe63adaec
+SHA1: af5903c54be83cb1fc25ef0d2b0f7d6899abbcc1
+SHA256: 6395015bb862052c1dd364c0841d721d53780263781377793fb6197100fa9d65
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-control-center/
+Description: This utility allows you to manage Vanilla OS components.
+
 Package: vanilla-dev-dummy-pkg
 Version: 1
 Architecture: all
