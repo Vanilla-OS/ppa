@@ -454,6 +454,22 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
 Description: Official Vanilla OS Plymouth (text)
 
+Package: vanilla-backgrounds
+Version: 0.0.1
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 38439
+Filename: ./vanilla-backgrounds_0.0.1_all.deb
+Size: 38525194
+MD5sum: 5e4c0fc0fdec53d880b14f96e3f6d04e
+SHA1: 2632477f47db872d74680819f303ab42ce9338b4
+SHA256: a16f158085aa63981af167b2ae76753dfd9598c75687d85102cfaa310e0ec3ec
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/Vanilla-OS/vanilla-backgrounds
+Description: Collection of light and dark backgrounds for Vanilla-OS.
+
 Package: vanilla-beta-notice
 Version: 0.0.1
 Architecture: all
