@@ -156,16 +156,16 @@ Version: 12.2ubuntu3+vanilla-2
 Architecture: amd64
 Essential: yes
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 291
+Installed-Size: 308
 Pre-Depends: awk
 Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
 Filename: ./base-files_12.2ubuntu3+vanilla-2_amd64.deb
-Size: 54312
-MD5sum: 68edb61d3a0630ba079c5bc41ece6105
-SHA1: f5bdaf1ee4fe076a16e760618b48882dd623b0f6
-SHA256: dc8e7b82410b2c25bdc68f0cf72337b8c67615789395416dcc68666cbb64c5d2
+Size: 57970
+MD5sum: a00d324c9d04a5176bd798a032d40d10
+SHA1: 78d5462e7cf1266b94af47e5bb10e15d30bcbc32
+SHA256: 73f336e92e12d4065e050c88f4e2d975aadbfdfc72bd37d43452e6ee5ed4d935
 Section: admin
 Priority: required
 Multi-Arch: foreign
