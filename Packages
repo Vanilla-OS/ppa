@@ -151,6 +151,31 @@ Description: Debian base system miscellaneous files
  and the text of several common licenses in use on Debian systems.
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
+Package: base-files
+Version: 12.2ubuntu3+vanilla-2
+Architecture: amd64
+Essential: yes
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 291
+Pre-Depends: awk
+Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Filename: ./base-files_12.2ubuntu3+vanilla-2_amd64.deb
+Size: 54312
+MD5sum: 68edb61d3a0630ba079c5bc41ece6105
+SHA1: f5bdaf1ee4fe076a16e760618b48882dd623b0f6
+SHA256: dc8e7b82410b2c25bdc68f0cf72337b8c67615789395416dcc68666cbb64c5d2
+Section: admin
+Priority: required
+Multi-Arch: foreign
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
 Package: calamares-settings-ubuntu-common
 Source: calamares-settings-ubuntu
 Version: 0.0.14
