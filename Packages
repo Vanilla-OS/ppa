@@ -644,10 +644,10 @@ Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 76
 Filename: ./vanilla-beta-notice_0.0.3_all.deb
-Size: 56670
-MD5sum: 10bd8f0963e1f1aa96693de6b08c4813
-SHA1: 558433108a25230624ae663ecf4dbf028015c2ce
-SHA256: a4dec952668cd27c640bbf74dcb4e5f88b3a4b20798cbca27c4e9f3db1b1eee5
+Size: 56674
+MD5sum: 50192aecdf08abfb09be11c799caed7c
+SHA1: ce49be44876e594ebe7e1f9c2c804e94f65ca8f9
+SHA256: 3f527d63555757b8c591fa2ade9c609299cf013a2c83fd1cb51c9866618abd19
 Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/vanilla-beta-notice/
