@@ -640,6 +640,21 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
 Description: Official Vanilla OS Logo
 
+Package: vanilla-distrologo
+Version: 0.0.7
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 45
+Filename: ./vanilla-distrologo_0.0.7_all.deb
+Size: 19018
+MD5sum: 5769f6c043c4cf17e646960bff7343a6
+SHA1: a52ed88bd841eba199ad42422f2a3e5d5c615cb9
+SHA256: c1938cb0c0edd6f7184393aa7b3f464382f3dde8d7a67f79bf9abcada452a5c9
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
+Description: Official Vanilla OS Logo
+
 Package: vanilla-first-setup
 Version: 1.2.0
 Architecture: amd64
